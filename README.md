@@ -1,3 +1,3 @@
 # self-introduction-html-for-nginx-testing
 
-PCの仮想環境上でDocker Composeを使用して
+Docker Composeを使って、仮想環境上のNginxの設定を行い、ローカルのブラウザでHTMLの表示のテストを行うための自己紹介HTML

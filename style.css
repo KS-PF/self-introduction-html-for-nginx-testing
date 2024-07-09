@@ -1,0 +1,87 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+    font-family: serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    color: rgb(91, 91, 91);
+}
+
+body {
+    line-height: 1.7;
+    color: rgb(91, 91, 91);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:#65b2ff;
+}
+
+p {
+    padding: 0 4%;
+    margin: 4px 0;
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.tc {
+    text-align: center;
+    padding: 16% 4px;
+    background: linear-gradient(to bottom right, #bcddff, #65b2ff);
+    color: white;
+    overflow: auto;
+}
+.tc p {
+    font-size: 1.2rem;
+}
+.tc h1{
+    font-size: 2rem;
+}
+
+.ani {
+    animation-name: animetion;
+    animation-fill-mode: backwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-direction: normal;
+}
+@keyframes animetion {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.index-main{
+    text-align: center;
+}
+.in-c{
+    height: fit-content;
+    padding: 32px 0;
+    background-color: #e8f3ff;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.in-w{
+    padding: 32px 0;
+    height: fit-content;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+}
